@@ -17,6 +17,10 @@ import base58
 from bitcoin import *
 import pandas as pd
 import pickle
+import time
+
+time.sleep(7200)
+
 
 minHeight = 400000
 #get current max block height
